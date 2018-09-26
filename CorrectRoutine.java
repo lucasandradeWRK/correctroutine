@@ -1,25 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package correctroutine;
 
-/**
- *
- * @author ifpb
- */
 public class CorrectRoutine {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
        Compromisso comp = new Compromisso();
-       comp.adcComprmisso("Pt","Portugues", "Gerson");
-       comp.adcComprmisso("Mt","Matematica", "Lobao");
-       comp.adcComprmisso("gf","geografia", "thiago");
-       comp.excluirComp("Pt");
+       comp.adcComprmisso("redacao Pt","Portugues", "Gerson", "10-09-2018 10:30:00");
+       comp.adcComprmisso("atv Mt","Matematica", "Lobaoo", "13-09-2018 04:15:00");
+       comp.adcComprmisso("prov gf","geografia", "thiago", "05-07-2018 09:30:00");
+       comp.excluirComp("redacao Pt");
        comp.lista();
     }
     
